@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+}
+body{
+    background-color: rgb(94, 94, 94);
+}
+.header{
+    background-color: black;
+    width: 2024px;
+    height: 875px;
+    background-image: url(img/fon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 320px 0px 320px;
+    color: white;
+}
+.logo ul{
+    display: flex;
+    gap: 32px;
+    font-size: 20px; 
+}
+.logo ul li{
+    transition: all 1s;
+}
+.logo ul li:hover{
+    color: #F57520;
+}
+.iu{
+    padding: 0px 24px 0px 0px;
+}
+.ui{
+    padding: 0px 58px 0px 0px;
+}
+.rew{
+    color: white;
+    margin: 80px 0px 0px 320px;
+}
+.rew h1{
+    font-size: 96px;
+}
+.rew p{
+    font-size: 20px;
+}
+.rew button{
+    width: 180px;
+    height: 52px;
+    border: 1px solid #F57520;
+    border-radius: 10px;
+    background-color: #F57520;
+    color: white;
+}
+.katalog{
+    width: 1934px;
+}
+.container{
+    margin: 0 auto;
+    padding: 0 330px;
+}
+.katalog-h1{
+    text-align: center;
+    margin: 120px 0;
+    font-size: 40px;
+    font-size: 64px;
+}
+
+.velosiped{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+}
+.velosiped img{
+    width: 875px;
+    height: 300px;
+}
+.velosiped h3{
+    font-size: 40px;
+    margin: 122px 0px 0px 80px;
+}
+.elemeti5{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.tradein{
+    width: 400px;
+    height: 458px;
+    background-color: black;
+    border-radius: 10px;
+}
+.tradein h3{
+    padding: 80px 0px 41px 120px;
+    font-size: 40px;
+    color: white;
+}
+.zapstan{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+.box1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 216px;
+    background-color: black;
+    padding: 29px 0px 0px 24px;
+    font-size: 35px;
+    border-radius: 10px;
+}
+.ekipstan{
+    width: 448px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+.box1 .img1{
+    margin: 0px 0px 0px -90px;
+}
+.box2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 216px;
+    background-color: black;
+    padding: 29px 0px 0px 29px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.velosiped:hover{
+    background-color: #F57520;
+}
+.tradein:hover{
+    background-color: #F57520;
+}
+.box1:hover{
+    background-color: #F57520;
+}
+.box2:hover{
+    background-color: #F57520;
+}
+.ekip h3{
+    font-size: 29px;
+}
+.h22{
+    display: flex;
+    justify-content: center;
+    margin: 157px 0px 170px 0px;
+    font-size: 64px;
+}
+.cart{
+    width: 400px;
+    height: 462px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.cart2{
+    border-radius: 10px 10px 0px 0px;
+}
+.cart h2{
+    font-size: 20px;
+    padding: 0px 0px 0px 27px;
+}
+.cart p{
+    font-size: 18px;
+    padding: 0px 0px 0px 27px;
+}
+.cart p:hover:after{
+    content: 'я, сохраняя возможность выбора ободного тормоза!';
+}
+.red{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cart .pi:hover::after{
+    content: 'рем Autodrop.';
+}
+.cart .pio:hover::after{
+    content: ' ';
+}
+.cart:hover{
+    background-color: #F57520;
+    color: black;
+}
+.fon{
+    background-image: url(img/аранжвый.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    margin: -605px 0px 0px 952px;
+
+}
+iframe{
+    margin: -4px 0px 0px 0px;
+}
+.section2{
+    width: 2024px;
+    height: 636px;
+    background-color: #F57520;
+    /* background-image: url(img/аранжвый.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ; */
+}
+.section2 h2{
+    padding: 52px 0px 0px 320px;
+    font-size: 40px;
+    color: white;
+}
+.input .in{
+    width: 302px;
+    height: 46px;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin: 0px 16px 0px 320px;
+}
+.input input{
+    width: 302px;
+    height: 46px;
+    border-radius: 10px;
+    border: 1px solid white;
+    
+}
+.input2 .pin{
+    width: 302px;
+    height: 46px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0px 16px 0px 320px;
+}
+.input2 input{
+    width: 302px;
+    height: 46px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+.input input::placeholder{
+    padding: 0px 0px 0px 16px;
+}
+.input2 input::placeholder{
+    padding: 0px 0px 0px 16px;
+}
+.input3 input::placeholder{
+    padding: 0px 0px 0px 16px;
+}
+.input3 input{
+    width: 625px;
+    height: 154px;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin: 0px 0px 0px 320px;
+}
+.input4 input{
+    width: 625px;
+    height: 52px;
+    border-radius: 10px;
+    color: #F57520;
+    border: 1px solid white;
+    margin: 0px 0px 0px 320px;
+}
+.footer{
+    margin: 601px 0px 0px 0px;
+}
+.final{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 2024px;
+    height: 370px;
+    background-color: black;
+    color: white;
+    padding: 0px 344px 0px 319px;
+}
